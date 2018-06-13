@@ -17,7 +17,7 @@ const Text = styled.p`
 const App = () => {
   return (
     <div>
-      <Title>Hello</Title>
+      <Title>Hello Git</Title>
       <Text>I'm a styled component!</Text>
     </div>
   );
