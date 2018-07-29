@@ -1,13 +1,13 @@
 import React from "react";
 import {Route} from 'react-router-dom';
 
-import PublicLandingPage from './landingPage/PublicLandingPage';
+import LandingPage from './landingPage/landingPage';
 
 
 const App = () => {
   return (
     <div>
-        <Route exact path='/' render={PublicLandingPage} />
+        <Route exact path='/' render={LandingPage} />
     </div>
   );
 };

@@ -1,7 +1,7 @@
 import React from "react";
 import HikesMap from "../hikes/HikesMap";
 
-const UserLandingPage = () => {
+const UserDashboard = () => {
     return (
         <div>
             <HikesMap/>
@@ -9,4 +9,4 @@ const UserLandingPage = () => {
     );
 };
 
-export default UserLandingPage;
+export default UserDashboard;

@@ -25,7 +25,7 @@ const Hidden = styled.div`
 `;
 const handleClick = () => console.log("Working on it :)");
 
-const PublicLandingPage = () =>
+const LandingPage = () =>
     <BackgroundImage>
         <Hidden src={img}/>
         <Title>My Hiking Worm</Title>
@@ -37,5 +37,5 @@ const PublicLandingPage = () =>
     </BackgroundImage>
 ;
 
-export default PublicLandingPage
+export default LandingPage
 
